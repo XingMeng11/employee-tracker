@@ -20,13 +20,13 @@ VALUES ("Sales Lead", 4, 100000),
 SELECT * FROM role;
 
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("John", "Doe", 4, NULL),
-    ("Mike", "Chan", 4, 1),
-    ("Ashley", "Rodriguez", 1, NULL),
-    ("Kevin", "Tupik", 1, 3),
-    ("Kunal", "Singh", 2, NULL),
-    ("Malia", "Brown", 2, 5),
-    ("Sarah", "Lourd", 3, NULL),
-    ("Tom", "Allen", 3, 7);
+INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
+VALUES (1, "John", "Doe", 4, NULL),
+    (2, "Mike", "Chan", 4, 1),
+    (3, "Ashley", "Rodriguez", 1, NULL),
+    (4, "Kevin", "Tupik", 1, 3),
+    (5, "Kunal", "Singh", 2, NULL),
+    (6, "Malia", "Brown", 2, 5),
+    (7, "Sarah", "Lourd", 3, NULL),
+    (8, "Tom", "Allen", 3, 7);
 SELECT * FROM employee;
